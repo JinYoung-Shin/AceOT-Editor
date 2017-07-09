@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL_INTEGRATION	node_modules/socket.io/node_modules/engine.io/node_modules/ws/Makefile	/^ALL_INTEGRATION = $(shell find test\/ -name '*.integration.js')$/;"	m	line:2
+ALL_INTEGRATION	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/Makefile	/^ALL_INTEGRATION = $(shell find test\/ -name '*.integration.js')$/;"	m	line:2
+ALL_TESTS	node_modules/socket.io/node_modules/engine.io/node_modules/ws/Makefile	/^ALL_TESTS = $(shell find test\/ -name '*.test.js')$/;"	m	line:1
+ALL_TESTS	node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/options/Makefile	/^ALL_TESTS = $(shell find test\/ -name '*.test.js')$/;"	m	line:1
+ALL_TESTS	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/Makefile	/^ALL_TESTS = $(shell find test\/ -name '*.test.js')$/;"	m	line:1
+ALL_TESTS	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/options/Makefile	/^ALL_TESTS = $(shell find test\/ -name '*.test.js')$/;"	m	line:1
+BENCHMARKS	node_modules/socket.io/node_modules/engine.io/Makefile	/^BENCHMARKS = $(shell find bench -type f ! -name 'runner.js')$/;"	m	line:3
+BIN	node_modules/morgan/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m	line:7
+BIN	node_modules/socket.io/node_modules/debug/Makefile	/^BIN := $(THIS_DIR)\/node_modules\/.bin$/;"	m	line:7
+BROWSERIFY	node_modules/morgan/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m	line:12
+BROWSERIFY	node_modules/socket.io/node_modules/debug/Makefile	/^BROWSERIFY ?= $(NODE) $(BIN)\/browserify$/;"	m	line:12
+EIO_COV	node_modules/socket.io/node_modules/engine.io/Makefile	/^	EIO_COV=1 $(MAKE) test REPORTER=html-cov > coverage.html$/;"	m	line:15
+MOCHA_OPTS	node_modules/express/Makefile	/^MOCHA_OPTS=$/;"	m	line:2
+NODE	node_modules/morgan/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m	line:10
+NODE	node_modules/socket.io/node_modules/debug/Makefile	/^NODE ?= $(shell which node)$/;"	m	line:10
+NPM	node_modules/morgan/node_modules/debug/Makefile	/^NPM ?= $(NODE) $(shell which npm)$/;"	m	line:11
+NPM	node_modules/socket.io/node_modules/debug/Makefile	/^NPM ?= $(NODE) $(shell which npm)$/;"	m	line:11
+REPORTER	node_modules/express/Makefile	/^REPORTER = dot$/;"	m	line:3
+REPORTER	node_modules/socket.io/Makefile	/^REPORTER = dot$/;"	m	line:2
+REPORTER	node_modules/socket.io/node_modules/engine.io/Makefile	/^REPORTER = dot$/;"	m	line:4
+REPORTER	node_modules/socket.io/node_modules/engine.io/node_modules/engine.io-parser/Makefile	/^REPORTER = dot$/;"	m	line:2
+REPORTER	node_modules/socket.io/node_modules/engine.io/node_modules/engine.io-parser/node_modules/arraybuffer.slice/Makefile	/^REPORTER = dot$/;"	m	line:2
+REPORTER	node_modules/socket.io/node_modules/engine.io/node_modules/engine.io-parser/node_modules/blob/Makefile	/^REPORTER = dot$/;"	m	line:1
+REPORTER	node_modules/socket.io/node_modules/socket.io-adapter/node_modules/socket.io-parser/Makefile	/^REPORTER = dot$/;"	m	line:2
+REPORTER	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/Makefile	/^REPORTER = dot$/;"	m	line:2
+REPORTER	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/Makefile	/^REPORTER = dot$/;"	m	line:2
+REPORTER	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/arraybuffer.slice/Makefile	/^REPORTER = dot$/;"	m	line:2
+REPORTER	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/Makefile	/^REPORTER = dot$/;"	m	line:1
+REPORTER	node_modules/socket.io/node_modules/socket.io-client/node_modules/socket.io-parser/Makefile	/^REPORTER = dot$/;"	m	line:2
+REPORTER	node_modules/socket.io/node_modules/socket.io-parser/Makefile	/^REPORTER = dot$/;"	m	line:2
+REPORTER	public/engine.io-client/Makefile	/^REPORTER = dot$/;"	m	line:2
+REPORTER	public/socket.io-client/Makefile	/^REPORTER = dot$/;"	m	line:2
+SHELL	node_modules/express/node_modules/connect/node_modules/formidable/Makefile	/^SHELL := \/bin\/bash$/;"	m	line:1
+SHELL	node_modules/hg/node_modules/winston/node_modules/stack-trace/Makefile	/^SHELL := \/bin\/bash$/;"	m	line:1
+SRC	node_modules/ejs/Makefile	/^SRC = $(shell find lib -name "*.js" -type f)$/;"	m	line:2
+TESTS	node_modules/express/node_modules/commander/Makefile	/^TESTS = $(shell find test\/test.*.js)$/;"	m	line:2
+TESTS	node_modules/socket.io/node_modules/engine.io/Makefile	/^TESTS = test\/*.js$/;"	m	line:2
+THIS_DIR	node_modules/morgan/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m	line:4
+THIS_DIR	node_modules/socket.io/node_modules/debug/Makefile	/^THIS_DIR:=$(shell cd $(dir $(THIS_MAKEFILE_PATH));pwd)$/;"	m	line:4
+THIS_MAKEFILE_PATH	node_modules/morgan/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m	line:3
+THIS_MAKEFILE_PATH	node_modules/socket.io/node_modules/debug/Makefile	/^THIS_MAKEFILE_PATH:=$(word $(words $(MAKEFILE_LIST)),$(MAKEFILE_LIST))$/;"	m	line:3
+UGLIFY_FLAGS	node_modules/ejs/Makefile	/^UGLIFY_FLAGS = --no-mangle $/;"	m	line:3
+data	node_modules/socket.io/node_modules/engine.io/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^data = []$/;"	v	line:26
+data	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^data = []$/;"	v	line:26
+hexify	node_modules/socket.io/node_modules/engine.io/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^def hexify(codePoint):$/;"	f	line:18
+hexify	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^def hexify(codePoint):$/;"	f	line:18
+jsonData	node_modules/socket.io/node_modules/engine.io/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^jsonData = json.dumps(data, sort_keys=False, indent=2, separators=(',', ': '))$/;"	v	line:40
+jsonData	node_modules/socket.io/node_modules/engine.io/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^jsonData = jsonData.replace('  ', '\\t')$/;"	v	line:42
+jsonData	node_modules/socket.io/node_modules/engine.io/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^jsonData = re.sub($/;"	v	line:44
+jsonData	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^jsonData = json.dumps(data, sort_keys=False, indent=2, separators=(',', ': '))$/;"	v	line:40
+jsonData	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^jsonData = jsonData.replace('  ', '\\t')$/;"	v	line:42
+jsonData	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^jsonData = re.sub($/;"	v	line:44
+main	node_modules/hg/node_modules/uuid/benchmark/benchmark-native.c	/^int main() {$/;"	f	line:12
+unisymbol	node_modules/socket.io/node_modules/engine.io/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^def unisymbol(codePoint):$/;"	f	line:8
+unisymbol	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^def unisymbol(codePoint):$/;"	f	line:8
+writeFile	node_modules/socket.io/node_modules/engine.io/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^def writeFile(filename, contents):$/;"	f	line:21
+writeFile	node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/tests/generate-test-data.py	/^def writeFile(filename, contents):$/;"	f	line:21
